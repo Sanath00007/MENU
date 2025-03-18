@@ -157,6 +157,12 @@ header::before {
     align-items: center;
     cursor: pointer;
     border-bottom: 1px solid #333;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.category-header:hover {
+    background-color: hwb(36 2% 0%); /* Darker background on hover */
+    color: #fff; /* Lighter text color on hover */
 }
 
 .category-icon {
